@@ -25973,3 +25973,11 @@ QQlfQgGMQSx2V02ywRxhIz5kTw58vkAIVagO9Tpz5w1tE14HT5qWTB+FvZWpdcw1mmFzUHKo6+2v
 vGyod176B0q4uogF/9rif1lAUjJC/3f34P4HrPuI4jD8Pl/a4wJmzKNQcHYh71hW9NzxIYfBXUwa
 jEOVoMh3UReOfxZMycVkPpun52UZp622DURAOJgrG79HI1nO4oClREgLvm2Em6WX5MhZtyiER+tn
 r
+DigitalOcean:
+- text: knife[:digital_ocean_access_token]  = '710550c7dad844f89c9414db7556e74f3faedf9f5228ab2099c67fa1f2a61f66'
+  api_key: 710550c7dad844f89c9414db7556e74f3faedf9f5228ab2099c67fa1f2a61f66
+- text: self.digital_ocean_handle.input_access_token("a1a7c625c612c3d9a07300b1396fff2ff129342c63d4516b3101fdb61b1f2a48")
+  api_key: a1a7c625c612c3d9a07300b1396fff2ff129342c63d4516b3101fdb61b1f2a48
+- text: "be able to edit the file and set the values. The file should look something like this:\n\n    ---\n vault_do_token: 245b743ede8d627b2e7dfbecc7a94711063b6c24ecd65a38f039a24f407bff54\n"
+  api_key: 245b743ede8d627b2e7dfbecc7a94711063b6c24ecd65a38f039a24f407bff54
+- text: "#define DIGITALOCEAN_CLIENT_SECRET @\"245b743ede8d627b2e7dfbecc7a94711063b6c24ecd65a38f039a24f407bff54\""
