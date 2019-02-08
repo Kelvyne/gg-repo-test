@@ -1,0 +1,27 @@
+    @@ -11,13 +11,7 @@
+
+ @Configuration public class MongoDBConfig extends AbstractMongoConfiguration {
+-
+-    private final String DB_PASSWORD = "liiqwexzq2zAw";
+     private final String DB_NAME = "dbone";
+-    private final String DB_HOST = "ds12345.mlab.com";
+-    private final Integer DB_PORT = 63666;
+-    private final String DB_USERNAME = "kflgfpdatx";
+
+     @Autowired private Mongo mongo;
+
+@@ -28,6 +22,7 @@
+     @Override public MongoClient mongoClient() {
+         return (MongoClient) mongo;
+     }
++<<<<<<< HEAD
+
+     @Bean public MongoClientFactoryBean mongo() {
+         MongoCredential credential = MongoCredential
+@@ -40,4 +35,6 @@
+
+         return mongo;
+     }
++=======
++>>>>>>> 39444378c243112b82405eff02c254ab7240709a
+ }
