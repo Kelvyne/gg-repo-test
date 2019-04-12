@@ -2,5 +2,8 @@ a
 
 mongodb://jaso:dayuumm11@dsxx123.mlab.com:33581
 
+
+Database connection string:
+
 -    <add key="ConnectionString" value="Data Source=rds.amazon.com;Initial Catalog=offsolut_yoursneed;User ID=offsolut_common;Password=p4wawd12"></add>
 
